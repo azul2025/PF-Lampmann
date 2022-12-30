@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="pagina de historia, donde aconsejamos qué ver o qué leer para aprender de aquellos acontecimientos que marcaron a nuestras poblaciones">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- style-css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HPQ</title>
+</head>
+
+<body>
+    <!----------- Header ----------->
+    <header class="navbar navbar-expand-lg border-bottom">
+        <div class="container">
+            <a class="navbar-brand texto-logo" href="./index.html">Historia para Qué</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/libros.html">Libros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/personajes.html">Personajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/peliculas.html">Peliculas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/ayuda.html">Ayuda</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!----------- Portada ----------->
+        <section class="container pt-3 pb-5">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="./img/portada-index.svg" alt="mujer-leyendo" class="w-100">
+                </div>
+                <div class="col-12 col-lg-6 order-lg-first d-flex flex-column justify-content-center">
+                    <h1 class="text-center text-lg-start display-1 fw-bold pt-3">HISTORIA PARA <span
+                            class="titulo-destacado">QUÉ</span></h1>
+                    <p class="text-center text-lg-start">Esta pagína fue creada con el fin de informar y poder compartir
+                        el interes y aprendizaje a cerca de la historia de no solo nuestros países, si no también sobre
+                        la que recorre nuestra tierra y lo que habitó alguna vez en ella.</p>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="./pages/ayuda.html" class="boton"> Quiero saber más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="d-flex justify-content-center p-5 fw-bold">Grandes Figuras</h2>
+
+        <div data-aos="fade-right" class="p-3 pb-4">
+            <section class="container shadow p-4 background-cards-libros-alt">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h3 class="display-5 p-1 fw-semibold">Alejandro Magno</h3>
+                        <p class="p-3 d-flex justify-content-start">También conocido como Alejandro el Grande, fue el
+                            rey de Macedonia hasta su muerte. Aristóteles se encargó de su educación y su reinado se
+                            considera por los historiadores como el inicio del Período Helenístico. Nació en julio del
+                            356 a. C y murió en junio del 323 a. C., probablemente envenenado </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div data-aos="fade-right" class="p-3 pb-4">
+            <section class="container shadow p-4 background-cards-libros">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h3 class="display-5 p-1 fw-semibold text-white">Charles Darwin</h3>
+                        <p class="p-3 d-flex justify-content-start text-white">El autor de El origen de las especies
+                            (1859) cimentó
+                            las bases de lo que hoy se conoce como teoría de la evolución. En la actualidad, sus ideas,
+                            como la selección natural, son ampliamente aceptadas por la ciencia. Las observaciones que
+                            le llevaron a postular su teoría las hizo después del viaje del Beagle, circunnavegación de
+                            casi cinco años en la cual pudo recorrer gran parte del globo.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div data-aos="fade-right" class="p-3 pb-4">
+            <section class="container shadow p-4 background-cards-libros-alt">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h3 class="display-5 p-1 fw-semibold">Platón</h3>
+                        <p class="p-3 d-flex justify-content-start">Platón (428/427 - 348/347 a.C.) fue un prominente
+                            filósofo griego, conocido por sus Diálogos y por fundar su Academia en Atenas,
+                            tradicionalmente considerada la primera universidad del mundo occidental. Platón fue
+                            discípulo de Sócrates e incluyó a este como personaje en casi todos sus diálogos, que
+                            conforman la base de la filosofía occidental.</p>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <!------------- Footer ------------->
+    <footer class="container-fluid background--tres texto-footer p-4 border-top">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="d-flex flex-column align-items-center col-lg-3 align-items-lg-start">
+                    <a href="#" class="texto-logo ">HpQ</a>
+                    <p class="fs-6">Historia para Qué ⓒ 2022 Todos los derechos reservados</p>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="d-flex justify-content-center">Redes sociales</h4>
+                    <div class="d-flex justify-content-around fs-2">
+                        <a class="bi bi-instagram"></a>
+                        <a class="bi bi-twitter"></a>
+                        <a class="bi bi-youtube"></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

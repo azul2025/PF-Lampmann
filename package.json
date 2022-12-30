@@ -1,0 +1,12 @@
+{
+  "name": "pf-lampmann",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "profin": "sass --watch scss/style.scss css/style.css"
+  },
+  "author": "azul lampmann",
+  "license": "ISC",
+  "keywords": [],
+  "description": "pagina sobre historia y personajes que acontecieron la misma"
+}
